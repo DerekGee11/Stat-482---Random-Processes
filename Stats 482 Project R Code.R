@@ -79,7 +79,7 @@ runs[1］<-0
 #specifying seed
 set.seed(3452749)
 for(i in 2:(Ninnings+1)) 
-  runs[il‹- runs[i-1] + round((-1/1ambda) *log(runif(1)) ,2)
+  runs[il‹- runs[i-1] + round((-1/lambda) *log(runif(1)) ,2)
 
 #plotting trajectory
 plot(rans, N, type = "n", xlab = "Number of innings", ylab = "Number of runs", panel.first = grid()) 
