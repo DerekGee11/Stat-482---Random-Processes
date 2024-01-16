@@ -153,7 +153,7 @@ print(p1<- sum1#exp(-(0.365+0.188) *9))
 sum2<- 0
 
 for(n in 0:8)
-  sum2<- sum2 + (0.037:0.05÷912)1n/(factorial(n))^2
+  sum2<- sum2 + (0.037:0.05÷912)In/(factorial(n))^2
 
 print(p2<- sum2*exp(-(0.037+0.05) *9))
 
