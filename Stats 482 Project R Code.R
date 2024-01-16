@@ -110,8 +110,8 @@ mean.est<- mean(int)
 #computing expected frequencies
 exp<- c(1:3)
 exp[1]<- length(int) *(1-exp(-25/mean.est))
-exp[2]<- 1ength(int) *(exp(-25/mean.est) -exp(-50/mean.est))
-exp[3]<- 1ength(int) *(exp(-55/mean.est) -exp(-100/mean.est))
+exp[2]<- length(int) *(exp(-25/mean.est) -exp(-50/mean.est))
+exp[3]<- length(int) *(exp(-55/mean.est) -exp(-100/mean.est))
 obs
 
 #computing chi-squared statistic 
