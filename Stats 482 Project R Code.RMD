@@ -1,5 +1,5 @@
 # Stat-482---Random-Processes
-Modeling the Process of Scoring Runs for the 2022 Major League Baseball World Series
+#Modeling the Process of Scoring Runs for the 2022 Major League Baseball World Series
 
 #specifying parameters for Astros***
 lambda<- 0.41
@@ -41,9 +41,9 @@ int<- int[-1] # removing first value
 hist int, main="Runs per inning", xlab = "Interarrival innings", ylab = "Runs Frequency", col= "orange")
 
 #binning interarrival times
-binned.int<-as.factor (ifeise(int<25,7", ifelse(int>=25 & int<50."2", ifelse(int>=50 & int<100，"3"， "4"））））
+binned.int<-as.factor(ifeise(int<25,"7", ifelse(int>=25 & int<50,"2", ifelse(int>=50 & int<100，"3"， "4"）））)
 
-#computing observed frequencies 
+#computing observed frequencies#
 obs<- table(binned.int)
 
 #estimating mean for exponential distribution 
@@ -95,14 +95,14 @@ run[length(runs)]
 phillies‹- read.csv(file = "Philadelphia_Phillies_Data.csv")
 
 #computing interarrival (in runs)
-int<- (Phillies$G"9)
+int<- (Phillies$G*9)
 int<- int[-1] # removing first value
 
 #plotting histogram
 hist(int, main = "Runs per inning", xlab = "Interarrival innings", ylab = "Runs Frequency", col= "red")
 
 #binning interarrival times
-binned.int<-as. factor (ifeise(int<25,"1", ifelse(int>=25 & int<50."2", ifelse（int>=50 & int<100，"3"， "4"））) )
+binned.int<-as. factor (ifeise(int<25,"1", ifelse(int>=25 & int<50,"2", ifelse（int>=50 & int<100，"3"， "4"））) )
 
 #estimating mean for exponential distribution 
 mean.est<- mean(int)
